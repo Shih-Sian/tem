@@ -7,8 +7,8 @@ from scapy.all import *
 from Protocol import Protocol
 
 # [TODO] Set source and destination IP address (Task 1.)
-src_ip = ''   # h1 IP address
-dst_ip = ''   # h2 IP address
+src_ip = '10.0.1.1'
+dst_ip = '10.0.1.2'   # h2 IP address
 
 # Set source and destination port
 src_port = 1024
@@ -24,7 +24,8 @@ def main():
     # Define customized header 
     # [TODO] Add 'id' field in customized header here (Task 2.)
     #        And fill in your department
-    student = Protocol(dept = 'YOUR_DEPT')
+    student = Protocol(dept = 'cs',id='0716030')
+    msg=['This lab is a little hard.','I am just kidding.','It is so damn difficult.']
     
     # [TODO] Fill in the message payload (Task 2.)
     msg = ["Anything you want to say (less than 60 charaters)", 

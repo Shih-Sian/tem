@@ -14,7 +14,8 @@ class Protocol(Packet):
     fields_desc = [
         StrField('dept', 'cs', fmt = 'H', remain = 0),
         # TODO here
-    ]
+        StrField('id','0000000',fmt='H',remain=0)
+          ]
 
 '''
 Add customized protocol into IP layer

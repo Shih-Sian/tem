@@ -5,7 +5,9 @@ from scapy.all import *
 from time import *
 
 # [TODO] Set source IP address (Task 3.)
-src_ip = '' # h1 IP address
+
+
+src_ip = '10.0.1.1' # h1 IP address
 
 # Store the receiving message
 id = ''
