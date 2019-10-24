@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python
 
 import argparse
@@ -28,9 +29,7 @@ def main():
     msg=['This lab is a little hard.','I am just kidding.','It is so damn difficult.']
     
     # [TODO] Fill in the message payload (Task 2.)
-    msg = ["Anything you want to say (less than 60 charaters)", 
-           "Computer Networks is interesting.", 
-           "I agree XD"]
+ 
     
     # Send packets
     for i in range(0, len(msg)):
